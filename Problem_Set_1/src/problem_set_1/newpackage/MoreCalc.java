@@ -11,21 +11,21 @@ package problem_set_1.newpackage;
  */
 public class MoreCalc {
     
-    public double Sum(double a, double b, double c)
+    public int Sum(int a, int b, int c)
     {
         return a + b + c;
     }
     
     
     
-    public double Product(double a, double b, double c)
+    public int Product(int a, int b, int c)
     {
         return a * b * c;
     }
     
     
     
-    public double Min(double a, double b, double c)
+    public int Min(int a, int b, int c)
     {
         //double min;
         
@@ -50,7 +50,7 @@ public class MoreCalc {
 
 
     
-    public double Max(double a, double b, double c)
+    public int Max(int a, int b, int c)
     {
         //double min;
         
@@ -75,9 +75,9 @@ public class MoreCalc {
 
     
     
-    public double Average(double a, double b, double c)
+    public double Average(int a, int b, int c)
     {
-        return (a+b+c)/3;
+        return (double)(a+b+c)/3;
     }
 
 

@@ -11,9 +11,9 @@ package problem_set_1.newpackage;
  */
 public class BMI {
     
-    public double BMI(double a, double b, double c)
+    public double BMI(double a, double b)
     {
-        return ( a / (b * c));
+        return ( a / (b * b));
     }
     
     
